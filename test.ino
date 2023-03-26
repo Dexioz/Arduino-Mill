@@ -21,8 +21,8 @@
 
 // Define the movement scale values for the encoder
 #define SCALE_1 1
-#define SCALE_2 5
-#define SCALE_3 25
+#define SCALE_2 10
+#define SCALE_3 100
 
 // Initialize the stepper motor object
 AccelStepper stepper(AccelStepper::DRIVER, STEP_PIN, DIR_PIN);
